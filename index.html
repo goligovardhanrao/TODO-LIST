@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TODO LIST</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style1.css" />
+    <link rel="stylesheet" href="./style2.css" />
+    <link rel="stylesheet" href="./style3.css" />
+
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Dosis:300,400,500,,600,700,700i|Lato:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body >
+
+ 
+
+
+
+     <!-- ======= Team Section ======= -->
+     <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+    
+
+        <div class="section-title">
+            <h2 style="margin-bottom: 0px;">Eisenhower Matrix</h2>
+          <p style="font-size: 16px; margin-bottom: 20px; ">Use this canvas to prioritize tasks according to urgency and importance.</p>
+       
+        </div>
+
+        
+        
+        <div class="row" style="margin-left: 100px; ">
+          <div class="col-lg-6 col-md-6 dis disno top section-title">
+           
+              <h3 style="margin-bottom: 0px;">Important</h3>
+        
+            
+          </div>
+          <div class="col-lg-6 col-md-6 dis disno section-title">
+        
+              <h3 style="margin-bottom: 0px;">Not Important</h3>
+    
+          </div>
+        </div>
+
+
+
+
+
+            
+        <div class="row disnorow" >
+          <div class="col-lg-6 col-md-6 dis cdisno section-title">
+           
+              <h3 style="margin-bottom: 0px;">Important & Urgent</h3>
+        
+            
+          </div>
+          <div class="col-lg-6 col-md-6 oneno dis cdisno section-title">
+        
+              <h3 style="margin-bottom: 0px;">Not Important & Urgent</h3>
+    
+          </div>
+        </div>
+        
+
+        <div class="row">
+       
+        
+          <div class="col-lg-1 dis disno" style=" display: contents;" >
+            <div class="section-title" style="writing-mode: vertical-lr;
+            text-orientation: upright;">
+              <h3>Urgent</h3>
+            </div>
+          </div>
+
+          <div class="col-lg-5 full" style="padding: 10px;">
+            <div class="member bg d-flex align-items-start">
+              
+
+
+              <div class="container">
+                <div class="member-info " >
+                  <h4>Do First</h4>
+                  <p class="description">First focus on important task to be done the same day.</p>
+                </div>
+                <header>
+                 
+                  <div class="new-todo" >
+                    <form id="todoform">
+                      <input type="text" name="newtodo" id="newtodo" placeholder="I will do ..." />
+                      <button type="submit">
+                        <i class="bi bi-plus-circle-fill"></i>
+                      </button>
+                    </form>
+                  </div>
+                </header>
+                <div id="todos-list" class="scrollbar" >
+                  <!-- <div class="todo" id="0">
+                    <i class="bi bi-circle"></i>
+                    <i class="bi bi-check-circle-fill"></i>
+                    <p class="">Go get milk.</p>
+                    <i class="bi bi-pencil-square"></i>
+                    <i class="bi bi-trash"></i>
+                  </div> -->
+                </div>
+                <div class="notification"></div>
+              </div>
+  
+           </div>
+
+            
+
+          </div>
+
+
+          
+
+
+
+          <div class="row disnorow3" >
+           
+            <div class="col-lg-6 col-md-6 dis cdisno section-title">
+          
+                <h3 style="margin-bottom: 0px;">Not Important & Urgent</h3>
+      
+            </div>
+          </div>
+
+          <div class="col-lg-5 full " style="padding: 10px;">
+            <div class="member bg1 d-flex align-items-start">
+            
+
+              <div class="container1">
+                <div class="member-info">
+                  <h4>Schedule</h4>
+                  <p class="description">Important, but not so urgent tasks should be seheduled next.</p>
+                </div>
+                <header>
+              
+                  <div class="new-todo1">
+                    <form id="todoform1">
+                      <input type="text" name="newtodo1" id="newtodo1" placeholder="I will do ..." />
+                      <button type="submit">
+                        <i class="bi bi-plus-circle-fill"></i>
+                      </button>
+                    </form>
+                  </div>
+                </header>
+                <div id="todos-list1" class="scrollbar" >
+                  <!-- <div class="todo" id="0">
+                    <i class="bi bi-circle"></i>
+                    <i class="bi bi-check-circle-fill"></i>
+                    <p class="">Go get milk.</p>
+                    <i class="bi bi-pencil-square"></i>
+                    <i class="bi bi-trash"></i>
+                  </div> -->
+                </div>
+                <div class="notification1"></div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="col-lg-1 col-md-6 dis disno" style=" display: contents;" >
+            <div class="section-title" style="writing-mode: vertical-lr;
+            text-orientation: upright;">
+              <h3>Not Urgent</h3>
+           
+            </div>
+          </div>
+
+          <div class="row disnorow" >
+            <div class="col-lg-6 col-md-6 dis cdisno section-title">
+             
+                <h3 style="margin-bottom: 0px;">Important & Not Urgent</h3>
+          
+              
+            </div>
+            <div class="col-lg-6 col-md-6 dis cdisno disnorow2 section-title">
+          
+                <h3 style="margin-bottom: 0px;">Not Important & Not Urgent</h3>
+      
+            </div>
+          </div>
+
+
+
+          <div class="col-lg-5 full" style="padding: 10px;">
+            <div class="member bg2 d-flex align-items-start">
+            
+
+              <div class="container2">
+                <div class="member-info">
+                  <h4>Delegate</h4>
+                  <p class="description">What's uragent, but less important, delegate to others.</p>
+                </div>
+                <header>
+              
+                  <div class="new-todo2">
+                    <form id="todoform2">
+                      <input type="text" name="newtodo2" id="newtodo2" placeholder="I will do ..." />
+                      <button type="submit">
+                        <i class="bi bi-plus-circle-fill"></i>
+                      </button>
+                    </form>
+                  </div>
+                </header>
+                <div id="todos-list2" class="scrollbar" >
+                  <!-- <div class="todo" id="0">
+                    <i class="bi bi-circle"></i>
+                    <i class="bi bi-check-circle-fill"></i>
+                    <p class="">Go get milk.</p>
+                    <i class="bi bi-pencil-square"></i>
+                    <i class="bi bi-trash"></i>
+                  </div> -->
+                </div>
+                <div class="notification2"></div>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="row disnorow3" >
+           
+            <div class="col-lg-6 col-md-6 dis cdisno section-title">
+          
+                <h3 style="margin-bottom: 0px;">Not Important & Not Urgent</h3>
+      
+            </div>
+          </div>
+
+
+          <div class="col-lg-5 full" style="padding: 10px;">
+            <div class="member bg3 d-flex align-items-start">
+            
+
+              <div class="container3">
+                <div class="member-info">
+                  <h4>Don't Do</h4>
+                  <p class="description">What's neither urgent nor important, dont't do at all.</p>
+                </div>
+                <header>
+              
+                  <div class="new-todo3">
+                    <form id="todoform3">
+                      <input type="text" name="newtodo3" id="newtodo3" placeholder="I will do ..." />
+                      <button type="submit">
+                        <i class="bi bi-plus-circle-fill"></i>
+                      </button>
+                    </form>
+                  </div>
+                </header>
+                <div id="todos-list3" >
+                  <!-- <div class="todo" id="0">
+                    <i class="bi bi-circle"></i>
+                    <i class="bi bi-check-circle-fill"></i>
+                    <p class="">Go get milk.</p>
+                    <i class="bi bi-pencil-square"></i>
+                    <i class="bi bi-trash"></i>
+                  </div> -->
+                </div>
+                <div class="notification3"></div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="./script.js"></script>
+  <script src="./script1.js"></script>
+  <script src="./script2.js"></script>
+  <script src="./script3.js"></script>
+</body>
+
+</html>
